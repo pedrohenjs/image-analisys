@@ -18,9 +18,9 @@ provider:
         Resource: '*'
 
 functions:
-  hello:
-    handler: handler.hello
+  img-analisys:
+    handler: src/index.main
     events:
       - httpApi:
-          path: /
+          path: /analyse
           method: get
