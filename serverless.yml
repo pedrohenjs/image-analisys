@@ -14,7 +14,7 @@ provider:
         Resource: '*'
       - Effect: Allow
         Action:
-          - traslate:TranslateText
+          - translate:TranslateText
         Resource: '*'
 
 functions:
